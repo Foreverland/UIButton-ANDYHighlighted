@@ -1,8 +1,6 @@
-//
-//  Tests.m
-//
-
 @import XCTest;
+
+#import "UIButton+ANDYHighlighted.h"
 
 @interface Tests : XCTestCase
 
@@ -10,24 +8,21 @@
 
 @implementation Tests
 
-- (void)setUp
+- (void)testHighlightedBackgroundColor
 {
-    [super setUp];
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor redColor];
+    button.highlightedBackgroundColor = [UIColor grayColor];
 
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
+    XCTAssertEqualObjects(button.backgroundColor, [UIColor redColor]);
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    [button setHighlighted:YES];
 
-    [super tearDown];
-}
+    XCTAssertEqualObjects(button.backgroundColor, [UIColor grayColor]);
 
-- (void)testSampleTest
-{
-    NSArray *array;
-    XCTAssertNil(array);
+    [button setHighlighted:NO];
+
+    XCTAssertEqualObjects(button.backgroundColor, [UIColor redColor]);
 }
 
 @end

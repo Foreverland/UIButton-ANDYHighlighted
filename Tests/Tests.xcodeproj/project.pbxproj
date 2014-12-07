@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1408896E1A34962200748AAB /* UIButton+ANDYHighlighted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1408896D1A34962200748AAB /* UIButton+ANDYHighlighted.m */; };
 		14B564731A06D87B00342CDA /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 14B564721A06D87B00342CDA /* .travis.yml */; };
 		14C4182E1A01919C00636FD6 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4182D1A01919C00636FD6 /* Tests.m */; };
 		14C4183C1A019A1500636FD6 /* CONTRIBUTING.md in Sources */ = {isa = PBXBuildFile; fileRef = 14C418381A019A1500636FD6 /* CONTRIBUTING.md */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1408896C1A34962200748AAB /* UIButton+ANDYHighlighted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ANDYHighlighted.h"; sourceTree = "<group>"; };
+		1408896D1A34962200748AAB /* UIButton+ANDYHighlighted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ANDYHighlighted.m"; sourceTree = "<group>"; };
 		14B564721A06D87B00342CDA /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		14C418261A01919C00636FD6 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C4182C1A01919C00636FD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,6 +78,8 @@
 		14C418371A01974300636FD6 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1408896C1A34962200748AAB /* UIButton+ANDYHighlighted.h */,
+				1408896D1A34962200748AAB /* UIButton+ANDYHighlighted.m */,
 			);
 			name = Source;
 			path = ../Source;
@@ -164,6 +169,7 @@
 				14C4183F1A019A1500636FD6 /* README.md in Sources */,
 				14C4183C1A019A1500636FD6 /* CONTRIBUTING.md in Sources */,
 				14C4182E1A01919C00636FD6 /* Tests.m in Sources */,
+				1408896E1A34962200748AAB /* UIButton+ANDYHighlighted.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

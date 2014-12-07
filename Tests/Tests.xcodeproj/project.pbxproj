@@ -22,7 +22,7 @@
 		14C4182D1A01919C00636FD6 /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		14C418381A019A1500636FD6 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C418391A019A1500636FD6 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
-		14C4183A1A019A1500636FD6 /* UIButton-ANDYHighlighted.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "UIButton-ANDYHighlighted.podspec"; path = "../UIButton-ANDYHighlighted.podspec"; sourceTree = "<group>"; };
+		14C4183A1A019A1500636FD6 /* UIButton-ANDYHighlighted.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; name = "UIButton-ANDYHighlighted.podspec"; path = "../UIButton-ANDYHighlighted.podspec"; sourceTree = "<group>"; };
 		14C4183B1A019A1500636FD6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

@@ -8,6 +8,10 @@
 ## Usage
 
 ```objc
+#import "UIButton+ANDYHighlighted.h"
+```
+
+```objc
 UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
 button.backgroundColor = [UIColor redColor];
 button.highlightedBackgroundColor = [UIColor grayColor];

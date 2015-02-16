@@ -70,12 +70,16 @@
 {
     [super setHighlighted:highlighted];
 
-    UIColor *titleColor = self.highlighted ? self.highlightedTitleColor : self.titleColor;
-    [self setTitleColor:titleColor forState:UIControlStateNormal];
-    [self setTitleColor:titleColor forState:UIControlStateHighlighted];
-    [self setTitleColor:titleColor forState:UIControlStateSelected];
+    if (self.highlightedTitleColor && self.titleColor) {
+        UIColor *titleColor = self.highlighted ? self.highlightedTitleColor : self.titleColor;
+        [self setTitleColor:titleColor forState:UIControlStateNormal];
+        [self setTitleColor:titleColor forState:UIControlStateHighlighted];
+        [self setTitleColor:titleColor forState:UIControlStateSelected];
+    }
 
-    self.backgroundColor = self.highlighted ? self.highlightedBackgroundColor : self.originalColor;
+    if (self.highlightedBackgroundColor && self.originalColor) {
+        self.backgroundColor = self.highlighted ? self.highlightedBackgroundColor : self.originalColor;
+    }
 }
 
 @end

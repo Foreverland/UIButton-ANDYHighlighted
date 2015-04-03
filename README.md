@@ -1,6 +1,6 @@
 # UIButton-ANDYHighlighted
 
-[![CI Status](http://img.shields.io/travis/NSElvis/UIButton-ANDYHighlighted.svg?style=flat)](https://travis-ci.org/NSElvis/UIButton-ANDYHighlighted)
+[![CI Status](http://img.shields.io/travis/3lvis/UIButton-ANDYHighlighted.svg?style=flat)](https://travis-ci.org/3lvis/UIButton-ANDYHighlighted)
 [![Version](https://img.shields.io/cocoapods/v/UIButton-ANDYHighlighted.svg?style=flat)](http://cocoadocs.org/docsets/UIButton-ANDYHighlighted)
 [![License](https://img.shields.io/cocoapods/l/UIButton-ANDYHighlighted.svg?style=flat)](http://cocoadocs.org/docsets/UIButton-ANDYHighlighted)
 [![Platform](https://img.shields.io/cocoapods/p/UIButton-ANDYHighlighted.svg?style=flat)](http://cocoadocs.org/docsets/UIButton-ANDYHighlighted)
@@ -22,11 +22,13 @@ button.highlightedBackgroundColor = [UIColor grayColor];
 **UIButton-ANDYHighlighted** is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-`pod 'UIButton-ANDYHighlighted'`
+```ruby
+pod 'UIButton-ANDYHighlighted'
+```
 
 ## Author
 
-Elvis Nuñez, hello@nselvis.com
+Elvis Nuñez, [elvisnunez@me.com](mailto:elvisnunez@me.com)
 
 ## License
 

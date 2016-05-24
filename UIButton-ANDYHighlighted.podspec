@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "UIButton-ANDYHighlighted"
-s.version          = "0.2.1"
+s.version          = "1.0.0"
 s.summary          = "Adds highlighted background color to UIButton"
 s.homepage         = "https://github.com/3lvis/UIButton-ANDYHighlighted"
 s.license          = 'MIT'

@@ -13,8 +13,10 @@
 
 ```objc
 UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-button.backgroundColor = [UIColor redColor];
-button.highlightedBackgroundColor = [UIColor grayColor];
+[button setBackgroundColor:[UIColor redColor]];
+[button setHighlightedBackgroundColor:[UIColor grayColor]];
+[button setTitleColor:[UIColor whiteColor]];
+[button setHighlightedTitleColor:[UIColor redColor]];
 ```
 
 ## Installation

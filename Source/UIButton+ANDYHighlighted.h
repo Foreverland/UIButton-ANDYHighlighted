@@ -2,10 +2,10 @@
 
 @interface UIButton (ANDYHighlighted)
 
-@property (nonatomic, strong) UIColor *highlightedBackgroundColor;
+- (void)setHighlightedBackgroundColor:(UIColor *)color;
 
-@property (nonatomic, strong) UIColor *titleColor;
+- (void)setTitleColor:(UIColor *)color;
 
-@property (nonatomic, strong) UIColor *highlightedTitleColor;
+- (void)setHighlightedTitleColor:(UIColor *)color;
 
 @end
